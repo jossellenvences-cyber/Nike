@@ -1,12 +1,4 @@
-
-# Requests sirve para enviar solicitudes HTTP a servidores web, permite interactuar con páginas web.
 import requests
-
-# BeautifulSoup sirve para analizar y extraer datos de documentos HTML y XML.
-from bs4 import BeautifulSoup
-
-import pandas as pd
-script_code = """import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
@@ -38,7 +30,3 @@ df_zapatos = pd.DataFrame(datos_zapatos)
 print(df_zapatos)
 display(df_zapatos)
 
-"""
-
-with open("texto.py", "w", encoding="utf-8") as f:
-    f.write(script_code)
