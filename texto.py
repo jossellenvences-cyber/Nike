@@ -28,5 +28,5 @@ for zapato in libros:
 
 df_zapatos = pd.DataFrame(datos_zapatos)
 print(df_zapatos)
-display(df_zapatos)
+df_zapatos.to_csv("tenis_nike.csv", index=False)
 
